@@ -32,6 +32,6 @@ pub = rospy.Publisher('random_int_suma', Int32, queue_size=1)
 rate = rospy.Rate(1) # 10hz --> 1/10hz=0.1s
 while not rospy.is_shutdown():
     valor = int_n1 + int_n2
-    #print(valor)
+    print(valor)
     pub.publish(valor)
     rate.sleep() # delay de 1 segundo

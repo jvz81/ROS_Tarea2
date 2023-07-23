@@ -14,8 +14,8 @@ float_value=0
 def callback(data):	
     global float_value
     float_value=data.data
-    print(float_value)
-    #rospy.loginfo("I heard %f", float_value)
+    #print(float_value)
+    rospy.loginfo("valor: %f", float_value)
 
 # se suscribe al topico
 sub = rospy.Subscriber("random_float_square", Float64, callback)

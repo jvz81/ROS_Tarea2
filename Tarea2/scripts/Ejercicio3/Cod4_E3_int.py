@@ -14,8 +14,8 @@ int_value=0
 def callback(data):	
     global int_value
     int_value=data.data
-    print(int_value)
-    #rospy.loginfo("I heard %f", int_value)
+    #print(int_value)
+    rospy.loginfo("valor: %f", int_value)
 
 # se suscribe al topico
 sub = rospy.Subscriber('random_int_suma', Int32, callback)

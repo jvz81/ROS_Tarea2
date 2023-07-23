@@ -5,7 +5,7 @@ import rospy
 from std_msgs.msg import Float64
 import random
 
-rospy.init_node('cod1_E2_float', anonymous=True)
+rospy.init_node('Cod1_E2_float', anonymous=True)
 
 pub = rospy.Publisher('random_float', Float64, queue_size=1)
 
