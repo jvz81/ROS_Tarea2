@@ -1,2 +1,2 @@
-# ROS_Tarea2
+# ROS_Tareas
 Tarea 2: publicadores y subscriptores
