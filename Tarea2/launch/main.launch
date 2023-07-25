@@ -1,0 +1,5 @@
+<launch>
+<!--Este es un comentario-->
+ <node name="Cod1_E1_float" pkg="Tarea2" type="Cod1_E1_float.py"/>  
+ <node name="Cod2_E1_float" pkg="Tarea2" type="Cod2_E1_float.py" output = "screen"/>  
+</launch>
