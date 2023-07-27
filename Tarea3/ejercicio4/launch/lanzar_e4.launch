@@ -1,0 +1,7 @@
+<launch>
+ <node name="cod1_e4_float" pkg="ejercicio4" type="cod1_e4_float.py"/>  
+ <node name="cod2_e4_float" pkg="ejercicio4" type="cod2_e4_float.py"/>
+ <node name="cod3_e4_float" pkg="ejercicio4" type="cod3_e4_float.py"/>
+ <node name="cod4_e4_fyp" pkg="ejercicio4" type="cod4_e4_fyp.py"/>  
+ <node name="cod5_e4_point" pkg="ejercicio4" type="cod5_e4_point.py" output="screen"/>  
+</launch>

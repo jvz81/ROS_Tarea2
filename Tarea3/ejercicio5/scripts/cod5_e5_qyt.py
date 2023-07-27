@@ -9,7 +9,7 @@ from geometry_msgs.msg import Twist
 from std_msgs.msg import Int32
 
 # el codigo se identifica ante ros
-rospy.init_node('Cod5_E5_QyT', anonymous=True)	
+rospy.init_node('cod5_e5_qyt', anonymous=True)	
 
 int_X = 0
 int_Y = 0

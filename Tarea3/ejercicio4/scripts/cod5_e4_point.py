@@ -6,7 +6,7 @@ import rospy
 from geometry_msgs.msg import Point
 
 # el codigo se identifica ante ros
-rospy.init_node('Cod5_E4_Point', anonymous=True)	
+rospy.init_node('cod5_e4_point', anonymous=True)	
 
 float_valorX = 0
 float_valorY = 0
@@ -19,6 +19,7 @@ def callback(data):
     float_valorY =data.y
     float_valorZ =data.z
     #print(float_value)
+    rospy.loginfo("Punto")
     rospy.loginfo("x: %f", float_valorX)
     rospy.loginfo("y: %f", float_valorY)
     rospy.loginfo("z: %f", float_valorZ)

@@ -10,7 +10,7 @@ from std_msgs.msg import Float64
 from geometry_msgs.msg import Point
 
 # el codigo se identifica ante ros
-rospy.init_node('Cod4_E4_FyP', anonymous=True)	
+rospy.init_node('cod4_e4_fyp', anonymous=True)	
 
 float_valueX=0
 float_valueY=0

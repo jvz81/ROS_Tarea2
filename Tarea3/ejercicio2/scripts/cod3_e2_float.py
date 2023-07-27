@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
-#suscriptor tipo float
+#Suscriptor que lee desde el publicador de nombre 
+#random_float_square
 import rospy
 from std_msgs.msg import Float64
 
 # el codigo se identifica ante ros
-rospy.init_node('Cod2_E1_float', anonymous=True)	
+rospy.init_node('cod3_e2_float', anonymous=True)	
 
 float_value=0
 
@@ -17,9 +18,10 @@ def callback(data):
     rospy.loginfo("valor: %f", float_value)
 
 # se suscribe al topico
-sub = rospy.Subscriber("random_float_E1", Float64, callback)
+sub = rospy.Subscriber("random_float_square", Float64, callback)
 # el codigo Cod1_float.py publica al topico 'random_float'
 
-rate = rospy.Rate(5) # 10hz --> 1/10hz=0.1s
+rate = rospy.Rate(10) # 10hz --> 1/10hz=0.1s
 while not rospy.is_shutdown():
+    
     rate.sleep() # delay de 1 segundo

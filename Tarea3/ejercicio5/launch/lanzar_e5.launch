@@ -1,0 +1,8 @@
+<launch>
+ <node name="cod1_e5_int" pkg="ejercicio5" type="cod1_e5_int.py"/>  
+ <node name="cod2_e5_int" pkg="ejercicio5" type="cod2_e5_int.py"/>
+ <node name="cod3_e5_iyp" pkg="ejercicio5" type="cod3_e5_iyp.py"/>
+ <node name="cod4_e5_pyq" pkg="ejercicio5" type="cod4_e5_pyq.py"/>  
+ <node name="cod5_e5_qyt" pkg="ejercicio5" type="cod5_e5_qyt.py"/>  
+ <node name="cod6_e5_twist" pkg="ejercicio5" type="cod6_e5_twist.py" output="screen"/>  
+</launch>

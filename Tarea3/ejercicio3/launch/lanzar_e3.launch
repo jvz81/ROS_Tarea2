@@ -1,0 +1,6 @@
+<launch>
+ <node name="cod1_e3_int" pkg="ejercicio3" type="cod1_e3_int.py"/>  
+ <node name="cod2_e3_int" pkg="ejercicio3" type="cod2_e3_int.py"/>
+ <node name="cod3_e3_int" pkg="ejercicio3" type="cod3_e3_int.py"/>  
+ <node name="cod4_e3_int" pkg="ejercicio3" type="cod4_e3_int.py" output="screen"/>  
+</launch>

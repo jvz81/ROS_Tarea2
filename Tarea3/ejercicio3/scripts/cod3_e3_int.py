@@ -7,7 +7,7 @@ import rospy
 from std_msgs.msg import Int32
 
 # el codigo se identifica ante ros
-rospy.init_node('Cod2_E2_float', anonymous=True)	
+rospy.init_node('cod3_e3_int', anonymous=True)	
 
 int_n1=0
 int_n2=0

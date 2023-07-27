@@ -8,7 +8,7 @@ from geometry_msgs.msg import Point
 from geometry_msgs.msg import Quaternion
 from std_msgs.msg import Int32
 # el codigo se identifica ante ros
-rospy.init_node('Cod4_E5_PyQ', anonymous=True)	
+rospy.init_node('cod4_e5_pyq', anonymous=True)	
 
 int_X = 0
 int_Y = 0

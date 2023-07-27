@@ -6,7 +6,7 @@ import rospy
 from std_msgs.msg import Float64
 
 # el codigo se identifica ante ros
-rospy.init_node('Cod2_E2_float', anonymous=True)	
+rospy.init_node('cod2_e2_float', anonymous=True)	
 
 float_value=0
 

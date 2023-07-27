@@ -6,7 +6,7 @@ from geometry_msgs.msg import Twist
 from std_msgs.msg import Int32
 
 # el codigo se identifica ante ros
-rospy.init_node('Cod6_E5_twist', anonymous=True)	
+rospy.init_node('cod6_e5_twist', anonymous=True)	
 
 int_X=0
 int_Y=0
@@ -24,6 +24,7 @@ def callback(data):
     int_P=data.angular.y
     int_R=data.angular.z
     #print(int_value)
+    rospy.loginfo("Twist: ")
     rospy.loginfo("linear.x %i", int_X)
     rospy.loginfo("linear.y %i", int_Y)
     rospy.loginfo("linear.z %i", int_Z)

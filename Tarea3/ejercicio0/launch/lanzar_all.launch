@@ -1,0 +1,9 @@
+<launch>
+
+<include file="$(find ejercicio1)/launch/lanzar_e1.launch"/>
+<include file="$(find ejercicio2)/launch/lanzar_e2.launch"/>
+<include file="$(find ejercicio3)/launch/lanzar_e3.launch"/>
+<include file="$(find ejercicio4)/launch/lanzar_e4.launch"/>
+<include file="$(find ejercicio5)/launch/lanzar_e5.launch"/>
+
+</launch>

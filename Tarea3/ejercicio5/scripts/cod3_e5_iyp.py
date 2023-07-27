@@ -8,7 +8,7 @@ import rospy
 from geometry_msgs.msg import Point
 from std_msgs.msg import Int32
 # el codigo se identifica ante ros
-rospy.init_node('Cod3_E2_IyP', anonymous=True)	
+rospy.init_node('cod3_e5_iyp', anonymous=True)	
 
 int_X = 0
 int_Y = 0

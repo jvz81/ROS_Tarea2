@@ -1,0 +1,4 @@
+<launch>
+ <node name="cod1_e1_float" pkg="ejercicio1" type="cod1_e1_float.py"/>  
+ <node name="cod2_e1_float" pkg="ejercicio1" type="cod2_e1_float.py" output="screen"/>  
+</launch>

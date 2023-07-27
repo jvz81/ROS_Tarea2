@@ -6,7 +6,7 @@ import rospy
 from std_msgs.msg import Int32
 
 # el codigo se identifica ante ros
-rospy.init_node('Cod4_E3_float', anonymous=True)	
+rospy.init_node('cod4_e3_int', anonymous=True)	
 
 int_value=0
 
