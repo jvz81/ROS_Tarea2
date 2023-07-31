@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: fanuc_m10ia_support_t6
+    relative_path: urdf/m10ia.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/fanuc_m10ia.srdf
+  CONFIG:
+    author_name: sander
+    author_email: sander.vargas@gmail.com
+    generated_timestamp: 1690757512
